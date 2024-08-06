@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Sign Up Page-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/landingpage.css">
+    <link rel="stylesheet" href="styles/signup.css">
+    <title>Sign Up</title>
+    <!--Internal Styling-->
+    <style> 
+        body{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li>
+            <a href="landingpage.html" title="The Plex" class="link">
+                <img class="logo" src="logo2.png"> The Plex
+            </a>
+        </li>
+        <li><a href="signup.html" title="Create An Account"class="link">
+            Sign Up
+        </a></li>
+        <li><a href="outnow.html" title="Currently Playing"class="link">
+            Currently Playing
+        </a></li>
+    </ul>   
+    <div class="box">
+        <h1>Sign Up</h1>
+        <img src="logo3.jpg" class="signlogo">
+        <hr>
+        <form action="#">
+            <label for="First Name">
+                First Name 
+            </label>
+                <input type="text" name="Enter Your First Name" placeholder="Enter Your First Name"id="First Name" required />
+            <br>
+            <label for="Last Name">
+                Last Name
+            </label>
+                <input type="text" name="Enter Your Last Name" placeholder="Enter Your Last Name"id="Last Name" required />
+            <br>
+            <label for="Email">
+                Email
+            </label>
+                <input type="text" name="Enter Your Email" placeholder="Enter Your Email"id="Email" required />
+            <br>
+            <label for="Password">
+                Password
+            </label>
+                <input type="text" name="Enter Your Password" placeholder="Enter Your Password"id="Password" required />
+            <br>
+            <label for="Confirm Password">
+                Confirm Password
+            </label>
+                <input type="text" name="Comfirm Password" placeholder="Confirm Password"id="Confirm Password" required />
+            <label for="Geneder">
+                Choose Your Gender.
+            </label>
+            <select name="Gender" id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <div class="button">
+                <button>Sign Up</button>
+            </div>
+        </form>     
+    </div>
+</body>
+</html>

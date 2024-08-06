@@ -1,0 +1,86 @@
+body{
+    background-color: #c9d845;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+/*Adds fade in effect*/
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.logo{
+    height: 80px;
+    width: 90px;
+}
+.link{
+    font-size: 80px;
+}
+.promo{
+    margin-top: 1%;
+    width: 50%;
+    height: 50%;
+}
+.promotion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+/*Adds boxes that grow a little when hovered over*/
+.boxes .box {
+    margin: 10px 20px;
+    background-color: rgb(95, 172, 216);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    transition-property: margin, padding;
+}
+.boxes:hover .box:hover{
+    margin: 20px 40px;
+    padding: 60px 20px;
+}
+#popcorn{
+    width: 50%;
+    height: 50%;
+}
+
+.topic{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
