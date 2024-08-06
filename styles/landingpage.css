@@ -54,7 +54,6 @@ li a:hover:not(.active) {
 }
 .boxes {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     
 }
@@ -70,8 +69,7 @@ li a:hover:not(.active) {
     transition-property: margin, padding;
 }
 .boxes:hover .box:hover{
-    margin: 20px 40px;
-    padding: 60px 20px;
+    transform: scale(1.1);
 }
 #popcorn{
     width: 50%;

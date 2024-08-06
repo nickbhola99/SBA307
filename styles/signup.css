@@ -1,9 +1,10 @@
 .box{
     width: 620px;
-    height: 660px;
+    height: 700px;
     margin: auto;
+    padding-top: 10px;
     background-color: aliceblue;
-    border-radius: 3px;
+    border-radius: 20px;
 }
 .signlogo{
     margin-left: 310px;
@@ -25,7 +26,6 @@ form label{
 form input{
     width: 100%;
     padding: 7px;
-    border: none;
     border: 1px solid gray;
     border-radius: 6px;
     outline: none;
@@ -37,6 +37,7 @@ select{
 }
 button{
     padding: 17px 20px;
+    justify-content: center;
     margin: 20px 150px;
     width: 100%;
 }
